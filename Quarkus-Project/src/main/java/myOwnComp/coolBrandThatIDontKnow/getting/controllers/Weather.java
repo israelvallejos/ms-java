@@ -49,7 +49,6 @@ public class Weather {
 
         String[] conditions = {"Sunny", "Cloudy", "Partly Cloudy", "Rainy", "Snowy"};
 
-
         Random random = new Random();
         int index = random.nextInt(conditions.length);
         return conditions[index];
